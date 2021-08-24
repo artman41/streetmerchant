@@ -25,6 +25,12 @@ export const Very: Store = {
       series: 'test:series',
       url: 'https://www.very.co.uk/msi-geforce-gtx-1660-ti-gaming-x-6g-graphics-card/1600350984.prd',
     },
+    {
+      brand: 'microsoft',
+      model: 'xbox series x',
+      series: 'xboxsx',
+      url: 'https://www.very.co.uk/xbox-series-x-xbox-series-x-optional-extras/1600503631.prd',
+    },
   ],
   linksBuilder: {
     builder: (docElement, series) => {
@@ -83,6 +89,10 @@ export const Very: Store = {
       {
         series: '3090',
         url: 'https://www.very.co.uk/electricals/pc-components/graphics-cards/e/b/118786.end?sort=newin,0&numProducts=100',
+      },
+      {
+        series: 'xboxsx',
+        url: 'https://www.very.co.uk/xbox-series-x-xbox-series-x-optional-extras/1600503631.prd',
       },
     ],
   },
